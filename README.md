@@ -27,3 +27,15 @@
 ## Demo
 
 ## Usage
+
+### You need to have
+
+- Google account
+- Discord account
+
+### Steps
+
+1. [Design the Google Forms and Google Sheets.](docs/google_forms_sheets.md)
+2. [Get the Discord channel webhook.](docs/discord_webhook.md)
+3. [Get the Tenor API key.](docs/tenor_api_key.md)
+4. [Upload the codes to Google Apps Script.](docs/google_apps_script.md)
