@@ -36,7 +36,7 @@ class SheetService {
   getParseContent(chosenItem) {
     const contents = [];
     const gifsUrl = grabGifs(chosenItem['Vocabulary']);
-    for (const [key, value] of Object.entries(chosenItem).slice(0, -1)) {
+    for (const [key, value] of Object.entries(chosenItem).slice(1, -1)) {
       contents.push(`**${key}**\n`);
       if (key === 'Explanation') {
         contents.push(`||${value}||\n\n`);
