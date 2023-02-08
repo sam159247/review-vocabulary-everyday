@@ -38,9 +38,9 @@ class SheetService {
     const gifsUrl = grabGifs(chosenItem['Vocabulary']);
     for (const [key, value] of Object.entries(chosenItem).slice(1, -1)) {
       contents.push(`**${key}**\n`);
-      if (key === 'Explanation') {
-        contents.push(`||${value}||\n\n`);
-        contents.push(`${gifsUrl.join('\n\n')}`);
+      if (key === 'Definition' || key === 'Addition') {
+        if (value !== '') contents.push(`||${value}||\n\n`);
+        else contents.push(`\n\n`);
       } else {
         contents.push(`\`\`\`${value}\`\`\`\n\n`);
       }
