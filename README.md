@@ -15,6 +15,10 @@
 - Tenor API
   - Gifs make you memorize new words faster.
   - Learn with culture and meme.
+- Open AI API
+  - Explain the words/sentences with GPT-3 models.
+  - Act as an English Translator and Improver.
+    - The idea is inspired from [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts#act-as-an-english-translator-and-improver)
 - Google Forms
   - Input the words that you want to remember manually.
   - Create Google Sheets, you can analyze data easily.
@@ -26,7 +30,7 @@
 
 ## Demo
 
-https://user-images.githubusercontent.com/30837573/202891879-f8449cd6-f1bb-478c-9d57-1ed796d087ac.mp4
+https://user-images.githubusercontent.com/30837573/217538782-e8b1ba09-af31-49c8-a5d9-897726db2df5.MP4
 
 ## Usage
 
