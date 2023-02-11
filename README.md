@@ -38,10 +38,12 @@ https://user-images.githubusercontent.com/30837573/217538782-e8b1ba09-af31-49c8-
 
 - Google account
 - Discord account
+- OpenAI account
 
 ### Steps
 
 1. [Design the Google Forms and Google Sheets.](docs/google_forms_sheets.md)
 2. [Get the Discord channel webhook.](docs/discord_webhook.md)
 3. [Get the Tenor API key.](docs/tenor_api_key.md)
-4. [Upload the codes to Google Apps Script.](docs/google_apps_script.md)
+4. [Get the OpenAI API key.](docs/openai_api_key.md)
+5. [Upload the codes to Google Apps Script.](docs/google_apps_script.md)

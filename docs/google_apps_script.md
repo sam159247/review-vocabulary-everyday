@@ -4,17 +4,17 @@
 
    ![image](https://user-images.githubusercontent.com/30837573/198055474-565de3d2-87d0-46d1-9ffa-56b93e58e827.png)
 
-2. Copy and paste the codes from [src](/src/)
+2. Copy and paste the codes from [src](/src/) to Google Apps Script.
 
-   ![image](https://user-images.githubusercontent.com/30837573/198057392-8bcd964e-a48b-42a2-a786-2cc4cce38c28.png)
+   ![image](https://user-images.githubusercontent.com/30837573/218259925-11b7ddc2-35e9-4727-8eb1-2172d306aaf7.png)
 
-3. Copy and paste the Tenor API key to **tenorApi.gs**, you got it from [here](/docs/tenor_api_key.md#L7)
+3. Set the OpenAI API key, Tenor API key and Tenor client key.
 
-   ![image](https://user-images.githubusercontent.com/30837573/198058012-1d91b8e0-686c-4179-a018-d6e671fb5769.png)
+   ![image](https://user-images.githubusercontent.com/30837573/218260227-ee7add58-3553-46a2-855e-ad961c7427a5.png)
 
-4. Paste the Sheet ID to **pushToDiscord.gs** you got it from [here](/docs/google_apps_script.md#L28), paste the Discord webhook you got it from [here](/docs/discord_webhook.md#L9), check the function **pushEnglishVocabulary** is selected and then click **Run**
+4. Set the Sheet ID and Discord webhook. Check the function **pushEnglishVocabulary** is selected and then click **Run**.
 
-   ![image](https://user-images.githubusercontent.com/30837573/198058424-2cae7083-8e9f-47c8-89c4-e62245f7ab46.png)
+   ![image](https://user-images.githubusercontent.com/30837573/218260603-55483fd9-a1ee-44f3-96fc-a97b110c8787.png)
 
 5. Click **Review permissions**.
 
@@ -36,22 +36,18 @@
 
    ![image](https://user-images.githubusercontent.com/30837573/198058671-36b23d8a-0fbc-4191-836c-6c2565675be3.png)
 
-10. Check your Discord, click **Explanation** will show the plaintext.
+10. Check your Discord.
 
-    ![image](https://user-images.githubusercontent.com/30837573/198065405-03a0b476-1b17-4abe-a2bb-8445557181ab.png)
+    ![image](https://user-images.githubusercontent.com/30837573/218260988-9bb30699-4151-49d7-9c90-2a1ddc222f1d.png)
 
-11. Nice Gifs is coming as well.
+11. Check your Google sheets, the **Notified** should be set to **yes**.
 
-    ![image](https://user-images.githubusercontent.com/30837573/198059313-019df3c2-b96c-409e-95bd-d03426aa6892.png)
+    ![image](https://user-images.githubusercontent.com/30837573/218261055-f117d215-e123-4a57-81cd-4dd1d3ac4b7c.png)
 
-12. Check your Google sheets, the **Notified** should be set to **yes**.
-
-    ![image](https://user-images.githubusercontent.com/30837573/198059696-77a74808-60d4-4ea0-a8d0-3bce8078f889.png)
-
-13. Go back Apps Script and click clock icon and click add trigger.
+12. Go back to Apps Script and click clock icon and add the triggers.
 
     ![image](https://user-images.githubusercontent.com/30837573/198059903-dc8a1178-641c-4c8d-be22-e3711c9962ea.png)
 
-14. Set the triggers to whatever you want.
+13. Set the triggers to whatever you want.
 
     ![image](https://user-images.githubusercontent.com/30837573/198060091-06591ec9-e4fe-4539-9184-52ef6bd7b254.png)
