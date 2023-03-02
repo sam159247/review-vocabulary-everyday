@@ -16,7 +16,7 @@
   - Gifs make you memorize new words faster.
   - Learn with culture and meme.
 - Open AI API
-  - Explain the words/sentences with GPT-3 models.
+  - Explain the words/sentences with gpt-3.5-turbo models.
   - Act as an English Translator and Improver.
     - The idea is inspired from [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts#act-as-an-english-translator-and-improver)
 - Google Forms
